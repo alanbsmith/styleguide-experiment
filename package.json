@@ -1,0 +1,30 @@
+{
+  "name": "styleguide-experiment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "author": "Alan B Smith <a.bax.smith@gmail.com> (https://github.com/alanbsmith)",
+  "license": "MIT",
+  "dependencies": {
+    "fontfaceobserver": "^2.0.13",
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40",
+    "gatsby-plugin-mdx": "^1.0.1",
+    "gatsby-plugin-netlify-cms": "^2.0.1",
+    "gatsby-plugin-react-next": "^1.0.11",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "netlify-cms": "^1.8.4",
+    "polished": "^1.9.2",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^0.9.0",
+    "@mdx-js/mdx": "^0.9.0",
+    "loader-utils": "^1.1.0"
+  }
+}
