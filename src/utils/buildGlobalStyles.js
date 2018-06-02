@@ -6,7 +6,7 @@ function buildGlobalStyles(theme) {
     body {
       background-color: ${theme.colors.background};
       color: ${theme.colors.text};
-      font-family: ${theme.fonts.primaryFallback};
+      font-family: ${theme.fonts.primary};
       font-size: ${theme.dimensions.baseFontSize}px;
       font-weight: 400;
       height: 100%;
@@ -16,18 +16,9 @@ function buildGlobalStyles(theme) {
       input,
       select,
       textarea {
-        font-family: ${theme.fonts.primaryFallback};
+        font-family: ${theme.fonts.primary};
       }
 
-      &.fonts-loaded {
-        font-family: ${theme.fonts.primary};
-        button,
-        input,
-        select,
-        textarea {
-          font-family: ${theme.fonts.primary};
-        }
-      }
     }
     #___gatsby {
       display: flex;

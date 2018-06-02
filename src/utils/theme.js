@@ -57,8 +57,8 @@ const theme = {
     baseGrid: 8,
   },
   fonts: {
-    primary: 'Open Sans',
-    primaryFallback: 'Helvetica, Arial, sans-serif',
+    primary: ['Open Sans'],
+    primaryFallback: ['Helvetica', 'Arial', 'sans-serif'],
   },
 };
 

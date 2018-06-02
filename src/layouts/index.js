@@ -3,15 +3,14 @@ import { ThemeProvider, injectGlobal } from 'styled-components';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 
-import buildGlobalStyles from '../config/buildGlobalStyles';
-import configureFonts from '../config/configureFonts';
-import theme from '../config/theme';
+import buildGlobalStyles from '../utils/buildGlobalStyles';
+import theme from '../utils/theme';
 
 import LeftNav from '../components/LeftNav';
 import menus from '../components/LeftNav/menus';
 
 injectGlobal([buildGlobalStyles(theme)]);
-configureFonts(theme);
+
 
 function Layout({ children }) {
   return (
