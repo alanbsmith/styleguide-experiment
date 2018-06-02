@@ -14,8 +14,7 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-    format:
-     - frontmatter_delimiter: ["export const meta = {", "}"]
+    frontmatter_delimiter: ["export const meta = {", "}"]
 
   - name: styles
     label: Styles Page
@@ -25,5 +24,4 @@ collections:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-    format:
-    - frontmatter_delimiter: ["export const meta = {", "}"]
+    frontmatter_delimiter: ["export const meta = {", "}"]
