@@ -7,9 +7,9 @@ const menus = [
     name: 'guidelines',
     link: '/guidelines/',
     items: [
-      { name: 'accessibility', link: '/styles/accessibility' },
-      { name: 'purpose & values', link: '/styles/purpose-and-values' },
-      { name: 'voice & tone', link: '/styles/voice-and-tone/' },
+      { name: 'accessibility', link: '/guidelines/accessibility' },
+      { name: 'purpose & values', link: '/guidelines/purpose-and-values' },
+      { name: 'voice & tone', link: '/guidelines/voice-and-tone/' },
     ],
   },
   {

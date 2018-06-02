@@ -8,7 +8,7 @@ public_folder: assets
 collections:
   - name: guidelines
     label: Guidelines Page
-    folder: guidelines
+    folder: pages/guidelines
     create: true
     fields:
       - { name: path, label: Path }
@@ -17,9 +17,11 @@ collections:
 
   - name: styles
     label: Styles Page
-    folder: styles
+    folder: pages/styles
     create: true
     fields:
       - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+
+frontmatter_delimiter: ["export const meta = {", "}"]
